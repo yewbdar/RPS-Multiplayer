@@ -1,0 +1,25 @@
+ section{
+    border: 1px solid black;
+    width:200px;
+    height:200px;
+    display: inline-block;
+} 
+body{
+    background-color: #ccefff;
+}
+#display{
+    background-color: white;
+    overflow: auto;
+    width:400px;
+    height: 400px;
+    margin-top: 2%;
+}
+#text{
+    width: 350px;
+}
+#user{
+    width: 300px;
+}
+#user,#text,#display,#info{
+    margin-left: 20%;
+}
